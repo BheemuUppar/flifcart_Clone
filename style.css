@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(67, 67, 199);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+nav {
+    height: 58px;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li,
+a {
+    color: white;
+    /*To remove bullet points*/
+    list-style: none;
+    /* To remove underline for anchor tag*/
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.logo img {
+    width: 97px;
+    padding: 18px 50px;
+}
+
+nav ul li {
+    padding: 0px 20px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 0px 229px;
+}
+
+.search input {
+    height: 30px;
+    width: 30vw;
+    border-radius: 9px;
+}
+
+.btn {
+    height: 33px;
+    width: 77px;
+    margin-left: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(75, 75, 245);
+    border: 2px solid white;
+    border-radius: 13px;
+}
+
+.slider img {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    /* margin-left: 10vw; */
+    margin: 20px 10vw;
+    border-radius: 29px;
+}
+
+.cards1 {
+    display: flex;
+    /* text-align: center; */
+    margin: 0px 74px;
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+footer {
+    background-color: rgb(94, 94, 242);
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+.card-item {
+    padding: 0px 18px;
+}
+
+.card h2 {
+    font-family: 'Macondo', cursive;
+}
